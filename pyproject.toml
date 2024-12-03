@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-clean-architecture"
+version = "1.0.0"
+description = "Template for hackathons"
+authors = ["mikhalexandr"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = {extras = ["standard"], version = "^0.115.5"}
+sqlalchemy = "^2.0.36"
+pydantic = "^2.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
